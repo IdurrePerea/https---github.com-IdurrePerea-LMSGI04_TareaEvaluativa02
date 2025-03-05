@@ -2,7 +2,13 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0">
 <xsl:output encoding="utf-8" method="html" doctype-system="about:legacy-compat" />
 
-<!--Plantilla para gastrobar-->
+<!--Módulo: LENGUAJE DE MARCAS Y SISTEMAS DE GESTIÓN DE LA INFORMACIÓN
+UNIDAD DIDÁCTICA 4 - TRANSFORMACIÓN DE DATOS
+Tarea Evaluativa 2
+Autor: Idurre Perea Sainz
+Fecha 05/03/2024
+-->
+
 <xsl:template match="/gestionParque">
 
 <html lang="es">
