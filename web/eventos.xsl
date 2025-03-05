@@ -46,12 +46,13 @@
                 <xsl:value-of select="descripcion" /> - <xsl:value-of select="count(comentarios/comentario)" /> Comentarios
             </h4>
             <ul>
+                <!--Para hacer la lista usamos la plantilla de los comentarios-->
                 <xsl:apply-templates select="comentarios/comentario"/>
             </ul>
         </article>
     </xsl:template>
 
-    <!--Plantilla para cada comentario -->
+    <!--Plantilla para los comentarios-->
     <xsl:template match="comentario">
         <li>
             <xsl:value-of select="." />
